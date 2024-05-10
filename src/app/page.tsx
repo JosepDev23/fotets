@@ -17,6 +17,36 @@ export default function Home() {
     }, 1000)
   }
 
+  function handleClickCumpleClara() {
+    setTimeout(() => {
+      router.push('cumple-clara')
+    }, 1000)
+  }
+
+  function handleClickCumpleJosep() {
+    setTimeout(() => {
+      router.push('cumple-josep')
+    }, 1000)
+  }
+
+  function handleClickNadal() {
+    setTimeout(() => {
+      router.push('nadal')
+    }, 1000)
+  }
+
+  function handleClickPrimerDiaAlbufera() {
+    setTimeout(() => {
+      router.push('primer-dia-albufera')
+    }, 1000)
+  }
+
+  function handleClickRandom() {
+    setTimeout(() => {
+      router.push('random')
+    }, 1000)
+  }
+
   return (
     <main className={styles.main}>
       <article onClick={handleClickPrimerDia} className={styles.card_wrapper}>
@@ -27,23 +57,26 @@ export default function Home() {
         <img src="/fotets/granada/IMG_20240404_194145803.jpg" />
         <img src="/fotets/granada/granada.png" />
       </article>
-      <article onClick={handleClickGranada} className={styles.card_wrapper}>
+      <article onClick={handleClickCumpleClara} className={styles.card_wrapper}>
         <img src="/fotets/cumple-clara/IMG_20231121_210725324.jpg" />
         <img src="/fotets/granada/granada.png" />
       </article>
-      <article onClick={handleClickGranada} className={styles.card_wrapper}>
+      <article onClick={handleClickCumpleJosep} className={styles.card_wrapper}>
         <img src="/fotets/cumple-josep/IMG_20230823_185100.jpg" />
         <img src="/fotets/granada/granada.png" />
       </article>
-      <article onClick={handleClickGranada} className={styles.card_wrapper}>
+      <article onClick={handleClickNadal} className={styles.card_wrapper}>
         <img src="/fotets/nadal/IMG_20231202_191907774.jpg" />
         <img src="/fotets/granada/granada.png" />
       </article>
-      <article onClick={handleClickGranada} className={styles.card_wrapper}>
+      <article
+        onClick={handleClickPrimerDiaAlbufera}
+        className={styles.card_wrapper}
+      >
         <img src="/fotets/primer-dia-albufera/IMG_20231118_175028425.jpg" />
         <img src="/fotets/granada/granada.png" />
       </article>
-      <article onClick={handleClickGranada} className={styles.card_wrapper}>
+      <article onClick={handleClickRandom} className={styles.card_wrapper}>
         <img src="/fotets/random/IMG_20230707_204847.jpg" />
         <img src="/fotets/granada/granada.png" />
       </article>

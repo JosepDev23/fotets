@@ -1,0 +1,10 @@
+.img {
+  height: 80vh;
+}
+
+.btn {
+  margin-top: 1rem;
+  border: solid black;
+  border-radius: 0.3rem;
+  padding: 0.2rem;
+}
