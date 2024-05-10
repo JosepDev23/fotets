@@ -1,0 +1,27 @@
+const PHOTOS_NAME_ARRAY = [
+  'IMG_20231121_181737745.jpg',
+  'IMG_20231121_181739178.jpg',
+  'IMG_20231121_181740430.jpg',
+  'IMG_20231121_181741840.jpg',
+  'IMG_20231121_181742932.jpg',
+  'IMG_20231121_181743873.jpg',
+  'IMG_20231121_181745090.jpg',
+  'IMG_20231121_210720197.jpg',
+  'IMG_20231121_210722499.jpg',
+  'IMG_20231121_210725324.jpg',
+  'IMG_20231121_210726118.jpg',
+  'IMG_20231121_210726879.jpg',
+  'IMG_20231121_210729741.jpg',
+  'IMG_20231121_210731546.jpg',
+]
+
+const getRandom = (): string => {
+  return PHOTOS_NAME_ARRAY[Math.floor(Math.random() * PHOTOS_NAME_ARRAY.length)]
+}
+
+const CumpleClaraPhotos = {
+  PHOTOS_NAME_ARRAY,
+  getRandom,
+}
+
+export default CumpleClaraPhotos
