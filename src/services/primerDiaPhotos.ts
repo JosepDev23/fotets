@@ -1,0 +1,29 @@
+const PHOTOS_NAME_ARRAY = [
+  'IMG_20230623_201229.jpg',
+  'IMG_20230623_201231.jpg',
+  'IMG_20230623_201234.jpg',
+  'IMG_20230623_201235.jpg',
+  'IMG_20230623_201237.jpg',
+  'IMG_20230623_201239.jpg',
+  'IMG_20230623_201241.jpg',
+  'IMG_20230623_201242.jpg',
+  'IMG_20230623_201243.jpg',
+  'IMG_20230623_201252.jpg',
+  'IMG_20230623_201254.jpg',
+  'IMG_20230623_201316_TIMEBURST1.jpg',
+  'IMG_20230623_201316_TIMEBURST2.jpg',
+  'IMG_20230623_201316_TIMEBURST3.jpg',
+  'IMG_20230623_201316_TIMEBURST4.jpg',
+  'IMG_20230623_201316_TIMEBURST5.jpg',
+]
+
+const getRandom = (): string => {
+  return PHOTOS_NAME_ARRAY[Math.floor(Math.random() * PHOTOS_NAME_ARRAY.length)]
+}
+
+const PrimerDiaPhotos = {
+  PHOTOS_NAME_ARRAY,
+  getRandom,
+}
+
+export default PrimerDiaPhotos
