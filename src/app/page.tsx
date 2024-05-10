@@ -59,26 +59,26 @@ export default function Home() {
       </article>
       <article onClick={handleClickCumpleClara} className={styles.card_wrapper}>
         <img src="/fotets/cumple-clara/IMG_20231121_210725324.jpg" />
-        <img src="/fotets/granada/granada.png" />
+        <img src="/fotets/cumple-clara/cumple-clara.png" />
       </article>
       <article onClick={handleClickCumpleJosep} className={styles.card_wrapper}>
         <img src="/fotets/cumple-josep/IMG_20230823_185100.jpg" />
-        <img src="/fotets/granada/granada.png" />
+        <img src="/fotets/cumple-josep/cumple-josep.png" />
       </article>
       <article onClick={handleClickNadal} className={styles.card_wrapper}>
         <img src="/fotets/nadal/IMG_20231202_191907774.jpg" />
-        <img src="/fotets/granada/granada.png" />
+        <img src="/fotets/nadal/nadal.png" />
       </article>
       <article
         onClick={handleClickPrimerDiaAlbufera}
         className={styles.card_wrapper}
       >
         <img src="/fotets/primer-dia-albufera/IMG_20231118_175028425.jpg" />
-        <img src="/fotets/granada/granada.png" />
+        <img src="/fotets/primer-dia-albufera/primer-dia-albufera.png" />
       </article>
       <article onClick={handleClickRandom} className={styles.card_wrapper}>
         <img src="/fotets/random/IMG_20230707_204847.jpg" />
-        <img src="/fotets/granada/granada.png" />
+        <img src="/fotets/random/random.png" />
       </article>
     </main>
   )
